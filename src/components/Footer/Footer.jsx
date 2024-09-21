@@ -27,10 +27,10 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-300 hover:text-white">
-              <i className="fab fa-facebook-f"></i> Facebook
+              <i className="fab fa-facebook-f"></i>
             </a>
             <a href="#" className="text-gray-300 hover:text-white">
-              <i className="fab fa-instagram"></i> Instagram
+              <i className="fab fa-instagram"></i>
             </a>
           </div>
         </div>
@@ -40,19 +40,29 @@ const Footer = () => {
           <h2 className="font-bold text-lg mb-4 text-gray-300">Our Link</h2>
           <ul>
             <li className="mb-2">
-              <a href="#home" className="text-gray-300 hover:text-orange-500">Home</a>
+              <a href="#home" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                Home
+              </a>          
             </li>
             <li className="mb-2">
-              <a href="#about" className="text-gray-300 hover:text-orange-500">About Us</a>
+              <a href="#about" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                About Us
+              </a>
             </li>
             <li className="mb-2">
-              <a href="#courses" className="text-gray-300 hover:text-orange-500">Courses</a>
+              <a href="#courses" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                Courses
+              </a>
             </li>
             <li className="mb-2">
-              <a href="#blog" className="text-gray-300 hover:text-orange-500">Blog</a>
+              <a href="#blog" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                Blog
+              </a>
             </li>
             <li>
-              <a href="#contact" className="text-gray-300 hover:text-orange-500">Contact Us</a>
+              <a href="#contact" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                Contact Us
+              </a>
             </li>
           </ul>
         </div>
@@ -62,13 +72,19 @@ const Footer = () => {
           <h2 className="font-bold text-lg mb-4 text-gray-300">Other Link</h2>
           <ul>
             <li className="mb-2">
-              <a href="#instructor" className="text-gray-300 hover:text-orange-500">Instructor</a>
+              <a href="#instructor" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                Instructor
+              </a>
             </li>
             <li className="mb-2">
-              <a href="#faq" className="text-gray-300 hover:text-orange-500">FAQ</a>
+              <a href="#faq" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                FAQ
+              </a>
             </li>
             <li>
-              <a href="#event" className="text-gray-300 hover:text-orange-500">Event</a>
+              <a href="#event" className="text-gray-300 hover:text-orange-500 transition-all duration-300 ease-in-out hover:translate-x-2 inline-block relative">
+                Event
+              </a>
             </li>
           </ul>
         </div>
@@ -76,13 +92,27 @@ const Footer = () => {
         {/* Contact Information */}
         <div>
           <h2 className="font-bold text-lg mb-4 text-gray-300">Contact Us</h2>
-          <p className="text-sm mb-2">1st Floor HBL Building</p>
-          <p className="text-sm mb-2">Madan Bhandari Path</p>
-          <p className="text-sm mb-2">New Baneshwor, Kathmandu-31</p>
-          <p className="text-sm mb-2">26 Kate Street, Kedron</p>
-          <p className="text-sm mb-2">QLD, 4031 Australia</p>
-          <p className="text-sm mb-2">+977 1 4437975, 9843161346</p>
-          <p className="text-sm">kathmandu@felixeastern.info</p>
+          <p className="text-sm mb-2 hover:text-orange-500 hover:translate-x-2 transition-all duration-300 ease-in-out">
+            1st Floor HBL Building
+          </p>
+          <p className="text-sm mb-2 hover:text-orange-500 hover:translate-x-2 transition-all duration-300 ease-in-out">
+            Madan Bhandari Path
+          </p>
+          <p className="text-sm mb-2 hover:text-orange-500 hover:translate-x-2 transition-all duration-300 ease-in-out">
+            New Baneshwor, Kathmandu-31
+          </p>
+          <p className="text-sm mb-2 hover:text-orange-500 hover:translate-x-2 transition-all duration-300 ease-in-out">
+            26 Kate Street, Kedron
+          </p>
+          <p className="text-sm mb-2 hover:text-orange-500 hover:translate-x-2 transition-all duration-300 ease-in-out">
+            QLD, 4031 Australia
+          </p>
+          <p className="text-sm mb-2 hover:text-orange-500 hover:translate-x-2 transition-all duration-300 ease-in-out">
+            +977 1 4437975, 9843161346
+          </p>
+          <p className="text-sm hover:text-orange-500 hover:translate-x-2 transition-all duration-300 ease-in-out">
+            kathmandu@felixeastern.info
+          </p>
         </div>
       </div>
 
