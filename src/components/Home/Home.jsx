@@ -5,14 +5,17 @@ import SixYears from "../../assets/sis.png";
 import Student from "../../assets/student.png";
 import Congratulation from "../../assets/Congratulation.png";
 import IdeaBulb from "../../assets/IdeaBulb.png";
+import Services from "../Service/Service"; 
+import AboutPage from "../About/About";
+import Features from "../Features/Features";
+import Event from "../Event/Event";
 import "./Home.css";
+import Courses from "../Course/Courses";
 
 const Home = () => {
   return (
     <div className="bg-blue-100 relative overflow-hidden">
-      {/* Blob background */}
       <div className="absolute -top-20 -right-40 w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] bg-gradient-to-r from-red-500 to-blue-500 rounded-full filter blur-3xl opacity-70 animate-blob"></div>
-
       <div className="container mx-auto py-12 relative z-10">
         <div className="lg:flex justify-between items-center">
           {/* Left side: Text content */}
@@ -122,6 +125,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Services />
+      <AboutPage />
+      <Courses />
+      <Event />
+      <Features />
+
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-gray-900">
+    <nav className="bg-gray-900 relative">
       <div className="container">
         <div className="flex justify-between items-center h-20">
           {/* Logo Section */}
