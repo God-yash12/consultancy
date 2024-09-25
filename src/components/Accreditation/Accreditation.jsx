@@ -6,18 +6,16 @@ import NewZealand from '../../assets/NewZealand.png';
 
 const Accreditation = () => {
   return (
-    <div className="py-10 bg-white">
-      <h2 className="text-center text-3xl font-bold text-gray-800 mb-10">Accreditation</h2>
+    <div className="py-10 bg-white mb-40">
+      <h2 className="text-center text-5xl font-bold text-blue-900 mb-10">Accreditation</h2>
       
-      <div className="flex flex-wrap justify-center items-center gap-8">
+      <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-8">
         {/* Accreditation logos */}
-        <img src={QEAC} alt="QEAC" className="w-32 md:w-40 hover:scale-105 transition-transform" />
-        <img src={TITI} alt="TITI" className="w-32 md:w-40 hover:scale-105 transition-transform" />
-        <img src={NepalGov} alt="Nepal Government" className="w-32 md:w-40 hover:scale-105 transition-transform" />
-        <img src={NewZealand} alt="New Zealand Education" className="w-32 md:w-40 hover:scale-105 transition-transform" />
+        <img src={QEAC} alt="QEAC" className="w-12 md:w-32 lg:w-60 hover:scale-105 transition-transform" />
+        <img src={TITI} alt="TITI" className="w-12 md:w-32 lg:w-60 hover:scale-105 transition-transform" />
+        <img src={NepalGov} alt="Nepal Government" className="w-12 md:w-32 lg:w-60 hover:scale-105 transition-transform" />
+        <img src={NewZealand} alt="New Zealand Education" className="w-12 md:w-32 lg:w-60 hover:scale-105 transition-transform" />
       </div>
-
-      <div className="mt-8 bg-blue-600 h-3"></div> {/* Decorative blue bar */}
     </div>
   );
 };

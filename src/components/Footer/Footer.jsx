@@ -25,12 +25,15 @@ const Footer = () => {
           <p className="text-sm mb-4">
             We are a well-known, government-approved test preparation center. We're here to assist you in selecting the appropriate destination and university for your objectives and aspirations.
           </p>
-          <div className="flex space-x-4">
-            <a href="#" className="text-gray-300 hover:text-white">
-              <i className="fab fa-facebook-f"></i>
+          <div className="flex space-x-5">
+            <a href="https://www.facebook.com/YourPage" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-orange-500 transition duration-300">
+              <i className="fab fa-facebook-f text-3xl"></i>
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
-              <i className="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/YourPage" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-orange-500 transition duration-300">
+              <i className="fab fa-instagram text-3xl"></i>
+            </a>
+            <a href="https://www.tiktok.com/@YourPage" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-orange-500 transition duration-300">
+              <i className="fab fa-tiktok text-3xl"></i>
             </a>
           </div>
         </div>

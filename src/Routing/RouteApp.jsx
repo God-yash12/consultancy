@@ -7,6 +7,7 @@ import Courses from '../components/Courses/Courses';
 import Team from '../components/Team/Team';
 import Contact from '../components/Contact/Contact';
 import Accreditation from '../components/Accreditation/Accreditation';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 
 const RouteApp = () => {
@@ -22,6 +23,7 @@ const RouteApp = () => {
           <Route path='/team' element={<Team />}/>
           <Route path='/contactus' element={<Contact />}/>
           <Route path='/accreditation' element={<Accreditation />}/>
+          <Route path='/testimonials' element={<Testimonial />}/>
           
 
         </Route>
