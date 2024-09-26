@@ -9,8 +9,12 @@ import Services from "../Service/Service";
 import AboutPage from "../About/About";
 import Features from "../Features/Features";
 import Event from "../Event/Event";
+import Team from "../Team/Team";
+import Contact from "../Testimonial/Testimonial";
+import Accreditation from "../Accreditation/Accreditation";
 import "./Home.css";
 import Courses from "../Course/Courses";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -130,6 +134,10 @@ const Home = () => {
       <Courses />
       <Event />
       <Features />
+      <Team />
+      <Testimonial />
+      <Accreditation />
+
 
     </div>
   );
