@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import EventImage from "../../assets/event-img.jpg";
+import { IoTriangle } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Event = () => {
   const [events, setEvent] = useState([]);
@@ -24,7 +26,19 @@ const Event = () => {
         {/* Wrapper Container */}
         <div className="flex flex-col lg:flex-row justify-between gap-9">
           {/* Image Wrapper Container */}
-          <div className="">
+          <div className="flex items-center justify-end">
+            <Link to={""}>
+            <div className="flex flex-row justify-between items-center absolute w-54  bg-red-700 px-10 py-5 rounded-lg mt-44 ml-20  lg:left-80 cursor-pointer shadow-lg text-center animate-shake z-20">
+              <div className="flex justify-between items-center gap-4">
+                <span className="flex justify-center items-center w-16 h-16 rounded-full bg-white animate-pulse">
+                  <IoTriangle className="text-3xl text-red-800 text-center rotate-90 ml-1" />
+                </span>
+                <p className="text-white text-2xl text-center p-3 font-poppins font-bold">
+                  Watch Us !
+                </p>
+              </div>
+            </div>
+            </Link>
             <img
               src={EventImage}
               alt="Event Image"
