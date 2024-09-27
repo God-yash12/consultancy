@@ -12,17 +12,7 @@ const RouteApp = () => {
   return (
     <Router>
       <Routes>
-        
-        <Route path="/" element={<Layout />}>
-          
-          <Route index element={<Home />} />
-          <Route path='/about' element={<About />}/>
-          <Route path='/courses' element={<Courses />}/>
-          <Route path='/team' element={<Team />}/>
-          <Route path='/contactus' element={<Contact />}/>
-          
-
-        </Route>
+        <Route path="/" element={<Layout />} />
       </Routes>
     </Router>
   );

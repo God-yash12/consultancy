@@ -10,7 +10,7 @@ const About = () => {
     <div className="bg-gray-300">
       <div className="container">
         <div className="text-center">
-          <h1 className="text-gray-800 text-6xl font-bold font-poppins uppercase underline">
+          <h1 className="text-gray-800 text-6xl pt-20 font-bold font-poppins uppercase ">
             About Us
           </h1>
         </div>
@@ -58,10 +58,10 @@ const About = () => {
 
           {/* Right side: Text and content */}
           <div className="lg:w-1/2 lg:mt-20">
-            <h1 className="text-4xl font-bold tracking-wide leading-loose">
+            <h1 className="text-4xl font-bold tracking-wide leading-loose text-center lg:text-left">
               Pathway To Success
             </h1>
-            <p className="mb-8 text-gray-600">
+            <p className="mb-8 text-gray-600 text-center lg:text-left px-10 lg:px-0">
               Felix Eastern Education Consultancy is a government-registered and
               test-preparation center with a long history. With a central office
               in Nepal and a branch office in Australia, we have been delivering
@@ -76,7 +76,7 @@ const About = () => {
             </p>
 
             <div className="mb-8">
-              <ul className="leading-10">
+              <ul className="leading-10 ml-10 lg:ml-0">
                 <li className="flex items-center gap-4 text-blue-950 font-poppins font-semibold">
                   <FaRegCircleCheck className="text-white bg-green-800 rounded-full w-7 h-7" />
                   Experienced and Skilled Team of Experts
@@ -101,7 +101,7 @@ const About = () => {
               </ul>
             </div>
 
-            <div>
+            <div className="flex items-center justify-center lg:justify-start">
               <button className="bg-orange-500 p-3 px-8 rounded-lg text-white uppercase text-center hover:bg-green-700 transition-all duration-500 mb-64">
                 <Link to={"/team"}>Explore More</Link>
               </button>
