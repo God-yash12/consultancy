@@ -19,9 +19,9 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="py-10">
+    <section className="bg-white py-10">
       <h1 className="text-center text-l font-bold text-blue-600 mb-6">TEAM OF EXPERTS</h1>
-      <h2 className="text-center text-5xl font-bold text-blue-900 mb-12">Our Team</h2>
+      <h2 className="text-center text-5xl font-bold text-grey-900 mb-12">Our Team</h2>
       <div className="flex flex-wrap justify-center gap-8">
         {teamMembers.map((member, index) => (
           <div
@@ -35,7 +35,7 @@ const Team = () => {
                 className="w-full h-64 object-cover transition-transform transform hover:scale-110"
               />
             </div>
-            <h3 className="mt-6 text-xl font-semibold text-center text-blue-900 hover:text-orange-500 transition-colors">
+            <h3 className="mt-6 text-xl font-semibold text-center text-grey-900 hover:text-orange-500 transition-colors">
               {member.name}
             </h3>
             <p className="text-blue-600 text-sm text-center">
