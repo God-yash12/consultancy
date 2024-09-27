@@ -33,7 +33,7 @@ const Courses = () => {
                   className="shadow-sm transform transition-transform duration-300 ease-in-out group-hover:scale-105 w-full"
                 />
                 <div className="p-4">
-                  <header className="text-2xl tracking-wider font-semibold mb-2">
+                  <header className="text-2xl tracking-wider font-semibold hover:text-orange-700 mb-2">
                     {course.title}
                   </header>
                   {/* Horizontal Line */}
