@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../../assets/logo.png";
-import { Link } from "react-scroll"; // Import Link from react-scroll for smooth scrolling
+import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {

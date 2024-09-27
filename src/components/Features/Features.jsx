@@ -8,11 +8,11 @@ const Features = () => {
   return (
     <div className="bg-gray-900 w-full">
       {/* Wrapper container */}
-      <div className="flex flex-col md:flex-col lg:flex-row items-center justify-between w-full mb-44">
+      <div className="flex flex-col md:flex-col lg:flex-row items-center justify-between w-full py-10">
         
         {/* Left side content */}
         <div className="w-full lg:w-1/2 mb-10 sm:px-16 lg:mb-0 lg:ml-36 text-center lg:text-left space-x-5 lg:space-x-0">
-          <h1 className="text-gray-500 uppercase text-2xl tracking-wider mt-10 leading-10 font-bold mb-6">
+          <h1 className="text-blue-600 uppercase text-2xl tracking-wider mt-10 leading-10 font-bold mb-6">
             Core Feature
           </h1>
           <header className="text-4xl md:text-5xl lg:text-6xl text-gray-100 tracking-wide font-bold leading-tight mb-8">
